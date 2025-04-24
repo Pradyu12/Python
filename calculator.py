@@ -12,7 +12,7 @@ if user_input == "quit":
 elif user_input in ["+", "-", "*", "/"]:
     num1 = float(input("Enter a number: "))
     num2 = float(input("Enter another number: "))
-if user_input == "+":
+elif user_input == "+":
     result = num1 + num2
     print(num1, "+", num2, "=", result)
 elif user_input == "-":
